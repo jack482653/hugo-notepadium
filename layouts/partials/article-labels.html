@@ -6,7 +6,7 @@
     {{- end -}}
     {{- range .Params.tags -}}
     {{- $url := print "/tags/" (. | urlize) "/" -}}
-    <a class="tag" href={{- $url | relLangURL -}}>{{- . -}}</a>
+    <a class="tag1" href={{- $url | relLangURL -}}>{{- . -}}</a>
     {{- end -}}
 </section>
 {{- end -}}

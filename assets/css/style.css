@@ -319,7 +319,7 @@ acronym {
   text-decoration: none;
 }
 
-.tag:hover,
+.tag1:hover,
 .category:hover {
   opacity: .5;
   text-decoration: none;
@@ -392,7 +392,7 @@ acronym {
   margin-top: 20px;
 }
 
-.tag,
+.tag1,
 .category {
   display: inline-block;
   font-size: 13px;
@@ -403,7 +403,7 @@ acronym {
   border: 1px solid #e6e6e6;
 }
 
-.tag {
+.tag1 {
   color: #c41a16;
 }
 
