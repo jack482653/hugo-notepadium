@@ -92,6 +92,7 @@ a {
 .article {
     &.header {
         margin-bottom: 3rem;
+        text-align: left;
 
         .title {
             font-size: 3rem;
@@ -112,6 +113,10 @@ a {
         box-shadow: none;
         color: rgba(255,255,255,0.85);
         padding: 0;
+        @media (max-width: 500px) {
+            margin-left: 0;
+            margin-right: 0;
+        }
         p {
             line-height: 1.58;
         }
